@@ -27,6 +27,53 @@
 .App-link {
   color: #61dafb;
 }
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.Cat {
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+.Cat h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Cat img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.Cat button {
+  background-color: #4b4bed;
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Cat button:hover {
+  background-color: #333;
+}
+.Cat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 @keyframes App-logo-spin {
   from {
